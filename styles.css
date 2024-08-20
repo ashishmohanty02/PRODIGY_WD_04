@@ -1,0 +1,84 @@
+/* Header */
+#header {
+    background:black; /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(240, 233, 233, 0.1); /* Soft shadow */
+    padding: 20px 0; /* Increased padding */
+    position: fixed; /* Fixed position */
+    width: 100%; /* Full width */
+    top: 0; /* Align at the top */
+    left: 0; /* Align at the left */
+    z-index: 1000; /* On top of other content */
+}
+
+.logo a {
+    font-size: 28px; /* Larger font size */
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px; /* Slightly increased letter spacing */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 25px; /* Increased margin */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; /* Slightly larger font size */
+    padding: 12px 20px; /* Increased padding */
+    border-radius: 8px; /* Rounded corners */
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar a.active {
+    color: #ffffff; /* Active link text color */
+    background-color: #007bff; /* Background color for active link */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.navbar a:hover {
+    color: #ffffff; /* Hover text color */
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Footer */
+footer {
+    background: black; /* Semi-transparent white background */
+    padding: 30px 0; /* Increased padding */
+    text-align: center;
+    margin-top: auto; /* Push footer to the bottom */
+    border-top: 2px solid #007bff; /* Blue border on top */
+}
+
+footer .copyright,
+footer .credits {
+    margin: 0;
+    color:white; /* Darker color for text */
+    font-size: 16px; /* Slightly larger font size */
+}
+
+footer a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold; /* Bold links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+}

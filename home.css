@@ -1,0 +1,87 @@
+/* Hero Section */
+#hero {
+    background-color: #ffffff; /* Contrasting white color for the hero section */
+    min-height: calc(100vh - 56px); /* Ensure it covers the viewport height minus the header height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+}
+
+#hero h2 {
+    font-size: 24px;
+    color: #555;
+}
+
+.btn-about {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-about:hover {
+    background-color: #333;
+}
+
+/* About Page Specific Styles */
+#about {
+    background-color: #ffffff; /* Contrasting white color for the about section */
+    padding: 60px 20px; /* Adjust padding as needed */
+}
+
+#about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#about h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#about img {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+    margin: 20px 0;
+}
+
+#about .skills {
+    margin-top: 40px;
+}
+
+#about .skills h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about .skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about .skills li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}

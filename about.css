@@ -1,0 +1,106 @@
+/* About Section */
+#about {
+    padding: 60px 0;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 40px; /* Space between content and skills */
+}
+
+.about-img {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 500px; /* Adjust this value as needed */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-details {
+    flex: 2;
+}
+
+.about-details h3 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.about-details p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-details ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.about-details ul li i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+/* Skills Section */
+.skills {
+    padding: 20px 0;
+}
+
+.skills h3 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-item .skill {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.skill-item .progress-bar {
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    transition: width 0.4s ease;
+}
+
+.skill-item:nth-child(1) .progress-bar {
+    background: #007bff; /* Blue */
+}
+
+.skill-item:nth-child(2) .progress-bar {
+    background: #28a745; /* Green */
+}
+
+.skill-item:nth-child(3) .progress-bar {
+    background: #ffc107; /* Yellow */
+}
+
+.skill-item:nth-child(4) .progress-bar {
+    background: #dc3545; /* Red */
+}
+
+.skill-item:nth-child(5) .progress-bar {
+    background: #0c64b1; /* Grey */
+}
